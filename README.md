@@ -5,15 +5,15 @@ Este projeto visa analisar e prever os preços de diárias de estabelecimentos e
 ---
 
 ## Conteúdo
-1. [1.0 Instalação](#instalação)
-2. [2.0 Uso](#uso)
-3. [3.0 Principais Funcionalidades](#principais-funcionaliades)
-4. [4.0 Hipóteses e Validações](#hipóteses-e-validações)
-5. [5.0 Análise de Métricas de Avaliação](#analise-de-metricas-avaliacao)
-6. [6.0 Resultados](#resultados)
-7. [7.0 Melhorias Futuras](#melhorias-futuras)
-8. [8.0 Licença](#licença)
-9. [9.0 Contato](#contato)
+1. [Instalação](#instalação)
+2. [Uso](#uso)
+3. [Principais Funcionalidades](#principais-funcionalidades)
+4. [Hipóteses e Validações](#hipóteses-e-validações)
+5. [Análise de Métricas de Avaliação](#análise-de-métricas-de-avaliação)
+6. [Resultados](#resultados)
+7. [Melhorias Futuras](#melhorias-futuras)
+8. [Licença](#licença)
+9. [Contato](#contato)
 
 ---
 
