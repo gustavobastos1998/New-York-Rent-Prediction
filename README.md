@@ -211,7 +211,7 @@ Implementar algoritmos como XGBoost ou redes neurais.
 
 # Licença
 
-Distribuído sob a licença MIT. Veja LICENSE.md para mais detalhes.
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE.md) para mais detalhes.
 
 # Contato
 
