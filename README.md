@@ -17,7 +17,7 @@ Este projeto visa analisar e prever os preços de diárias de estabelecimentos e
 
 ---
 
-# 1.0 Instalação
+# Instalação
 
 ### Pré-requisitos
 - Python 3.8+
