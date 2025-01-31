@@ -90,7 +90,7 @@ O notebook lighthouse-notebook-teste.ipynb contém todas as etapas do projeto.
 
 # Hipóteses e Validações
 
-## População dos distritos (2011-2019)
+## **População dos distritos (2011-2019)**
 A escolha dos anos são referentes a única coluna de data, **`last_review`** que varia de **2011-03-28** a **2019-07-08**.
 
 | Ano   | Manhattan   | Brooklyn    | Queens      | Bronx       | Staten Island |
@@ -105,9 +105,9 @@ A escolha dos anos são referentes a única coluna de data, **`last_review`** qu
 | 2018  | 1.710.000   | 2.670.000   | 2.390.000   | 1.465.000   | 505.000       |
 | 2019  | 1.725.000   | 2.685.000   | 2.295.000   | 1.475.000   | 510.000       |
 
-## Hipótese 1: Distritos mais populosos têm preços mais baixos
+## **Hipótese 1: Distritos mais populosos têm preços mais baixos**
 
-### Média das diárias de cada distrito
+### **Média das diárias de cada distrito**
 
 | Distrito       | Diária Média  | Ranqueamento |
 |----------------|---------------|--------------|
@@ -119,9 +119,9 @@ A escolha dos anos são referentes a única coluna de data, **`last_review`** qu
 
 **Conclusão**: Manhattan é o distrito mais caro, enquanto o Bronx é o mais barato. Hipótese rejeitada.
 
-## Hipótese 2: O ranqueamento de preços se mantém quando consideramos o **"preço real"** (preço da diária multiplicado pelo número mínimo de noites necessárias)
+## **Hipótese 2: O ranqueamento de preços se mantém quando consideramos o **"preço real"** (preço da diária multiplicado pelo número mínimo de noites necessárias)**
 
-### Preço real médio de cada distrito
+### **Preço real médio de cada distrito**
 
 | Distrito       | Preço Real Médio | Ranqueamento |
 |----------------|------------------|--------------|
@@ -133,14 +133,15 @@ A escolha dos anos são referentes a única coluna de data, **`last_review`** qu
 
 **Conclusão**: Manhattan continua sendo o distrito mais caro, e o Bronx permanece como o mais barato. A hipótese 2 está correta.
 
-## Hipótese 3: Quartos compartilhados são mais baratos e disponíveis.
+## **Hipótese 3: Quartos compartilhados são mais baratos e disponíveis.**
 ![Média da diária de cada tipo de cômodo(2017-2019)](imagens/validacao_hip_3.png)
 ![Média da disponibilidade de cada tipo de cômodo(2017-2019)](imagens/validacao_hip_3_1.png)
 
 **Conclusão**: Quartos compartilhados têm menor preço e estão mais disponíveis. Hipótese 3 está correta.
 
-## Hipótese 4: A palavra "Luxury" no nome afeta o preço
+## **Hipótese 4: A palavra "Luxury" no nome afeta o preço**
 ![Correlação entre Luxury e Preço](imagens/validacao_hip_4.png)
+
 **Conclusão**: Apesar de terem diárias em média mais caras, não há correlação estatística significativa. Hipótese 4 descartada.
 
 # Análise de Métricas de Avaliação
@@ -180,31 +181,31 @@ A escolha dos anos são referentes a única coluna de data, **`last_review`** qu
 
 # Resultados
 
-## Melhor Modelo:
+## **Melhor Modelo:**
 
 - **RandomForestRegressor** teve o menor MAE (56.77) e MAPE (42.46%).
 - Entretanto, apresenta overfitting (R² Treino = 0.3940 vs. R² Teste = 0.1112).
 
-## Impacto da Remoção de Outliers:
+## **Impacto da Remoção de Outliers:**
 
 - Redução de ~20% no RMSE para modelos lineares.
 - Aumento de ~7% no R² para LinearRegression.
 
 # Melhorias Futuras
 
-## Normalização de Dados
+## **Normalização de Dados**
 
-Testar MinMaxScaler ou PowerTransformer para melhorar métricas.
+Testar MinMaxScaler ou PowerTransformer para melhorar métricas. StandardScaler e RobustScaler tiveram impacto significativo na melhora do treinamento.
 
-## Tratamento de Outliers
+## **Tratamento de Outliers**
 
 Usar técnicas como Winsorization em vez de remoção direta.
 
-## Ajuste de Hiperparâmetros
+## **Ajuste de Hiperparâmetros**
 
 Utilizar GridSearchCV para otimizar modelos como RandomForestRegressor.
 
-## Novos Modelos
+## **Novos Modelos**
 
 Implementar algoritmos como XGBoost ou redes neurais.
 
