@@ -62,13 +62,13 @@ Este projeto visa analisar e prever os preços de diárias de estabelecimentos e
    pip install -r requirements.txt
    ```
 
-# 2.0 Uso
+# Uso
 
 ## Execução do Notebook:
 
 O notebook lighthouse-notebook-teste.ipynb contém todas as etapas do projeto.
 
-# 3.0 Principais Funcionalidades
+# Principais Funcionalidades
 
 ## **3.1 Processamento de dados**
 - Padronização dos nomes das colunas
@@ -88,7 +88,7 @@ O notebook lighthouse-notebook-teste.ipynb contém todas as etapas do projeto.
 - ElasticNet
 - HuberRegressor
 
-# 4.0 Hipóteses e Validações
+# Hipóteses e Validações
 
 ## População dos distritos (2011-2019)
 A escolha dos anos são referentes a única coluna de data, **`last_review`** que varia de **2011-03-28** a **2019-07-08**.
@@ -143,7 +143,7 @@ A escolha dos anos são referentes a única coluna de data, **`last_review`** qu
 ![Correlação entre Luxury e Preço](imagens/validacao_hip_4.png)
 **Conclusão**: Apesar de terem diárias em média mais caras, não há correlação estatística significativa. Hipótese 4 descartada.
 
-# 5.0 Análise de Métricas de Avaliação
+# Análise de Métricas de Avaliação
 
 | Modelo               | Métrica | Antes (Com Outliers)       | Depois (Sem Outliers)      |
 |----------------------|---------|----------------------------|----------------------------|
@@ -178,7 +178,7 @@ A escolha dos anos são referentes a única coluna de data, **`last_review`** qu
 |                      | R² Treino | 0.0946                   | 0.1202                     |
 |                      | MAPE    | 55.31%                     | 53.79%                     |
 
-# 6.0 Resultados
+# Resultados
 
 ## Melhor Modelo:
 
@@ -190,7 +190,7 @@ A escolha dos anos são referentes a única coluna de data, **`last_review`** qu
 - Redução de ~20% no RMSE para modelos lineares.
 - Aumento de ~7% no R² para LinearRegression.
 
-# 7.0 Melhorias Futuras
+# Melhorias Futuras
 
 ## Normalização de Dados
 
@@ -209,11 +209,11 @@ Utilizar GridSearchCV para otimizar modelos como RandomForestRegressor.
 Implementar algoritmos como XGBoost ou redes neurais.
 
 
-# 8.0 Licença
+# Licença
 
 Distribuído sob a licença MIT. Veja LICENSE para mais detalhes.
 
-# 9.0 Contato
+# Contato
 
 - **Autor**: Gustavo de Souza Bastos
 - **Email**: gustavodsb25@gmail.com
