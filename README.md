@@ -2,6 +2,7 @@
 
 Este projeto visa analisar e prever os preços de diárias de estabelecimentos em Nova York. O estudo inclui processamento de dados, validação de hipóteses, modelagem preditiva e avaliação de métricas.
 
+![Nova York Imagem](imagens/nyk.png)
 ---
 
 ## Conteúdo
