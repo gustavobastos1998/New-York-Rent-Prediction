@@ -52,7 +52,7 @@ Este projeto visa analisar e prever os preços de diárias de estabelecimentos e
    ```bash
    venv\Scripts\activate
    ```
-   **No Windows (cmd ou powershell):**
+   **No macOS/Linux:**
    ```bash
    source venv/bin/activate
    ```
